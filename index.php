@@ -2,7 +2,7 @@
 require 'classes/Database.php';
 
 $database = new Database;
-//add for merge
+//lala
 $database->query('SELECT * FROM posts');
 $rows  = $database->resultset();
 //print_r($rows);
